@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    max-width: 2000px;
+    margin: 0 auto;
+    background-color: #eaeaea;
+}
+
+.header {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+    padding: 25px;
+}
+
+.l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 44px;
+    font-family: FZShuTi;
+}
+
+.logo2 {
+    color: firebrick;
+}
+
+.Hbox1 {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid firebrick;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid firebrick;
+    width: 350px;
+}
+
+.Hbox2 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.Hbox2:nth-child(2) {
+    color: black;
+}
+
+.Hbox2:hover {
+    color: firebrick;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 2%;
+}
+
+.title{
+    margin-top: 5%;
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+    border:2px solid firebrick;
+    padding: 13px;
+    margin-top: 10px;
+}
+
+.foto{
+    margin-top: 15px;
+}
+
+.feedback-input {
+    color:black;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid firebrick;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.feedback-input:focus { border:2px solid firebrick; }
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+[type="submit"] {
+    width: 30%;
+    background:firebrick;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:black;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:10px;
+    font-weight:700;
+}
+[type="submit"]:hover { background:white; }
+
+@media (max-width: 768px) {
+    .header {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-around;
+        background-color: #f8f8f8;
+        padding: 25px;
+        font-size: 14px;
+    }
+
+    .Hbox1 {
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid firebrick;
+        margin-right: 20px;
+    }
+
+    .Hbox2 {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .logo {
+        font-size: 24px;
+        font-family: FZShuTi;
+    }
+}
+
+
+/*.footer{*/
+/*    height: 250px;*/
+/*    margin-top: 25px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    background-color: #f8f8f8;*/
+/*    padding: 25px;*/
+/*}*/
+
